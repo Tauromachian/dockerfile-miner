@@ -1,5 +1,5 @@
 FROM alpine
 LABEL mantainer="lol@lol.com"
-COPY ./xmrig /home
+COPY /xmrig /home
 WORKDIR /home
-CMD [ "sh", "xmrig/start.sh" ]
+CMD [ "sh", "start.sh" ]
